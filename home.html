@@ -1,108 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Bank Management</title>
   <link rel="stylesheet" href="bg.css">
-
-  <style>
-    header {
-      background-color:brown;
-      color: white;
-      padding: 15px 30px;
-      font-size: 22px;
-    }
-    .navbar-nav .nav-link {
-      font-weight: bold;
-    }
-    .card {
-      margin-bottom: 2rem;
-    }
-</style> 
+  <link rel="stylesheet" href="home.css">
 </head>
+
 <body>
- 
-     <header>
-       
-            <button class="nav-item"><a class="nav-link" href="home.html">Home</a></button>
-             &nbsp; &nbsp;
-            <button class="nav-item"><a class="nav-link" href="service.html">Services</a></button>
-            &nbsp; &nbsp;
-            <button class="nav-item"><a class="nav-link" href="login.html">Login/Register</a></button>
-            &nbsp; &nbsp;
-            <button class="nav-item"><a class="nav-link" href="#donate">Donate</a></button>
-            &nbsp; &nbsp;
-             <button class="nav-item"><a class="nav-link" href="#contact">Contact </a>
-            </button>    &nbsp; &nbsp; 
-             <button class="nav-item"><a class="nav-link" href="Cart.html">Book Store</a> 
-               </button></header>
-             </div>
-            
-                    <img src="bookbank.jpg" alt="bookbank" style="width:100%; height: 500px;">
-                    <div class="text-block"> 
-                      <h1 style="font-size:50px;"> WELCOME  </h1>
-                           <h1 style="font-size:50px;"> TO  BOOK</h1>
-                        <h1 style="font-size: 50px;"> BANK MANAGEMENT</h1>
 
-                    </div>
+  <!-- Navbar  -->
+  <nav>
+    <a class="nav-link" href="home.html">Home</a>
+    <a class="nav-link" href="service.html">Services</a>
+    <a class="nav-link" href="#donate">Donate</a>
+    <a class="nav-link" href="#contact">Contact </a>
+    <a class="nav-link" href="Cart.html">BookStore</a>
+    <a class="nav-link" href="login.html">Login/Register</a>
+  </nav>
+
+  <!-- HeroSection -->
+  <section id="heroSection">
+    <div class="hero-title">
+      <div><span style="color: brown;">Welcome</span> to BookBank Management System</div>
+    </div>
+  </section>
 
 
-          <section id="about" class="card p-4">
-                     <h2>About Us</h2>
-                   <p> Welcome to our Book Bank Management System</p>
-                 <p> your one-stop solution for managing and accessing academic resources</p>
-                 <p>with ease. Our platform is 
-                 to simplify the process of lending, borrowing, and tracking</P>
-                 <p> books for students, educators, and institutions.
-                 we aim to make knowledge more 
-                 <P>accessible and affordable for all.</p>       
-           </section>     
-                 
-                 <section id="donate" class="card p-4">
-                  <h2>Donate Books</h2>
-                  <p>Fill out this simple form to donate books:</p>
-                  <form > 
-                    <div class="mb-3">
-                      <label for="bookTitle" class="form-label">Book Title</label>
-                      <input type="text" class="form-control" id="bookTitle"><br>
-                    </div><br>
-                    <div class="mb-3">
-                      <label for="author" class="form-label">Author</label>
-                      <input type="text" class="form-control" id="author"><br>
-                    </div>
-                    <br>
-                    <div class="mb-3">
-            
-                      <label for="condition" class="form-label">Condition</label>
-                      <select class="form-control" id="con dition">
-                       
-                        <option>New</option>
-                        <option>Like New</option>
-                        <option>Used</option>
-                      </select>
-                      <br>
-                  <br>
-                    <button type="submit" class="btn btn-success">Donate</button>
-                  </div>
-                  </form>
-                </section>
 
 
-           <section id="contact" class="card p-4">
-                  <h2>Contact Us</h2>
-                  <p>📧 Email: support@bookbank.com</p>
-                  <p>📞 Phone: +1-234-567-890</p>
-                  <p>📍 Location: City, State, Country</p>
-            </section>
-            <br>
-            <h3>Thank you For Visiting 🙏 </h3>
-            <p>Your request has been received successfully.<br>
-              We appreciate your interest in Book Bank 📚</p>
-      </section>
-</body> 
+
+  <section id="about" class="card p-4">
+    <h2>About Us</h2>
+    <p> Welcome to our Book Bank Management System</p>
+    <p> your one-stop solution for managing and accessing academic resources</p>
+    <p>with ease. Our platform is
+      to simplify the process of lending, borrowing, and tracking</P>
+    <p> books for students, educators, and institutions.
+      we aim to make knowledge more
+    <P>accessible and affordable for all.</p>
+  </section>
+
+  <section id="donate" class="card p-4">
+    <h2>Donate Books</h2>
+    <p>Fill out this simple form to donate books:</p>
+    <form>
+      <div class="mb-3">
+        <label for="bookTitle" class="form-label">Book Title</label>
+        <input type="text" class="form-control" id="bookTitle"><br>
+      </div><br>
+      <div class="mb-3">
+        <label for="author" class="form-label">Author</label>
+        <input type="text" class="form-control" id="author"><br>
+      </div>
+      <br>
+      <div class="mb-3">
+
+        <label for="condition" class="form-label">Condition</label>
+        <select class="form-control" id="con dition">
+
+          <option>New</option>
+          <option>Like New</option>
+          <option>Used</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit" class="btn btn-success">Donate</button>
+      </div>
+    </form>
+  </section>
 
 
-  
-
- 
+  <section id="contact" class="card p-4">
+    <h2>Contact Us</h2>
+    <p>📧 Email: support@bookbank.com</p>
+    <p>📞 Phone: +1-234-567-890</p>
+    <p>📍 Location: City, State, Country</p>
+  </section>
+  <br>
+  <h3>Thank you For Visiting 🙏 </h3>
+  <p>Your request has been received successfully.<br>
+    We appreciate your interest in Book Bank 📚</p>
+  </section>
+</body>
