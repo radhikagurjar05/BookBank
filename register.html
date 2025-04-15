@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Bank | Register</title>
+  <link rel="stylesheet" href="registerP.css">
+  <style>
+     * {
+      box-sizing: border-box;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="signup-container">
+    <h2>Book Bank Registration</h2>
+    <form>
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" placeholder="Jane Doe" required>
+      </div>
+
+      <div class="form-group">
+        <label for="studentid">Student ID</label>
+        <input type="text" id="studentid" placeholder="BBMS12345" required>
+      </div>
+
+      <div class="form-group">
+        <label for="department">Department</label>
+        <select id="department" required>
+          <option value="">Select Department</option>
+          <option>Computer Science</option>
+          <option>Electrical Engineering</option>
+          <option>Mechanical Engineering</option>
+          <option>Civil Engineering</option>
+          <option>Business Administration</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="you@example.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Create Password</label>
+        <input type="password" id="password" placeholder="********" required>
+      </div>
+
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" placeholder="********" required>
+      </div>
+
+      <button type="submit" class="signup-button">Register</button>
+    </form>
+
+    <div class="login-link">
+      Already have an account? <a href="login.html">Login Here</a>
+    </div>
+  </div>
+
+</body>
+</html>
