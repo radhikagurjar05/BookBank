@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: brown;
+  padding: 20px 40px;
+}
+
+.nav-link {
+  margin-right: 20px;
+  font-family:'Courier New', Courier, monospace, sans-serif;
+  font-size: 1.3rem;
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: wheat;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+/* HeroSection */
+
+#heroSection {
+    height: 100vh;
+    width: 100vw;
+    background: url("bookbank.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-title{
+    height: 100vh;
+    width: 50vw;
+    text-align: left;
+    padding-left: 8vw;
+    padding-top: 25vh;
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+
+}
